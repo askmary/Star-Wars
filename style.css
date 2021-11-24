@@ -15,7 +15,7 @@ header{
     position:relative;
 }
 .container-header{
-    width:72vw;
+    width:68vw;
     height:13vh;
     display:flex;
     justify-content:space-between;
@@ -34,10 +34,17 @@ header{
 }
 .kyloren-container{
     position:absolute; 
-    top:1vh;
-    left:10vw;
+    top:4vh;
+    left:9vw;
 }
 .kylo-header{
     width:70vw;
-    height:105vh;
+    height:100vh;
+}
+.menu-header{
+    width:8vw;
+    height:15vh;
+    position:absolute;
+    top:65vh;
+    left:70vw;
 }
