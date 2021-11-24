@@ -5,12 +5,39 @@
 }
 header{
     width:100vw;
-    height:100vh;
+    height:80vh;
     background-image:url('./img/star\ uó\ topo.png');
     background-repeat:no-repeat;
     background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.container-header{
+    width:72vw;
+    height:13vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    top:48vh;
+    left:19vw;
 }
 .star-header{
-    width:23vw;
-    height:13vh;
+    width:22vw;
+    height:12vh;
+}
+.wars-header{
+    width:22vw;
+    height:12vh;
+}
+.kyloren-container{
+    position:absolute; 
+    top:1vh;
+    left:10vw;
+}
+.kylo-header{
+    width:70vw;
+    height:105vh;
 }
