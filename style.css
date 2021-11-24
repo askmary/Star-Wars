@@ -1,0 +1,16 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+header{
+    width:100vw;
+    height:100vh;
+    background-image:url('./img/star\ uó\ topo.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.star-header{
+    width:23vw;
+    height:13vh;
+}
