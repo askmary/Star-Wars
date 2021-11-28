@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     width:100%;
@@ -84,10 +86,68 @@ header{
     width:45vw;
     height:25vh;
 }
-.line{
-    width:80vw;
+hr{
+    width:79vw;
     border:solid gray;
     position:absolute;
-    top:65vh;
+    top:66vh;
     left:15vw;
+}
+.darthmaul-div{
+    width:40vw;
+    height:80vh;
+    position:absolute;
+    top:73vh;
+    left:15vw;
+    z-index:1;
+}
+.darth-maul{
+    width:44vw;
+    height:84vh;
+}
+.rey-div{
+    width:25vw;
+    height:80vh;
+    position:absolute;
+    top:78vh;
+    left:72vw;
+    z-index:1;
+}
+.rey{
+    width:20vw;
+    height:80vh;
+}
+.list{
+    width:27vw;
+    position:absolute;
+    top:80vh;
+    left:45vw;
+}
+.estrutura{
+    padding-left:7vw;
+    font-size:3rem;
+    text-align: right;
+}
+span{
+    font-weight:bold;
+}
+li{
+    font-size:1.5rem;
+    list-style:none;
+    text-transform: uppercase;
+    text-align:right;
+    padding-top:1vh;
+    padding-bottom:1vh;
+}
+li:hover{
+    background-color:#d74430;
+    color:white;
+    cursor:pointer;
+}
+.attribute{
+    background-color:#2D2D2D;
+    width:100%;
+    height:180vh;
+    position:absolute;
+    top:230vh;
 }
