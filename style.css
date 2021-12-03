@@ -269,6 +269,53 @@ li:hover{
     margin:5vh 9vw 0 9vw;
     display:flex;
 }
+.jedi-div{
+    width:42%;
+    height:30%;
+    position: absolute;
+    top:28vh;
+    left:8vw;
+    background-color:#A43D2F;
+    opacity:0%;
+}
+.jedi-div:hover{
+    opacity:80%;
+}
+.border1{
+    width:3vw;
+    height:6vh;
+    margin:2vh 0 0 1vw;
+    border-top:3px solid white;
+    border-left:3px solid white;
+}
+.border2{
+    width:3vw;
+    height:6vh;
+    margin:11vh 0 2vh 37.5vw;
+    border-bottom:3px solid white;
+    border-right:3px solid white;
+}
+.jedi-h2{
+    font-size:2rem;
+    color:white;
+    margin:0 0 0 5vw;
+}
+.jedi-p{
+    font-size:1.2rem;
+    color:white;
+    font-weight:300;
+    width:70%;
+    margin:5vh 0 0 5vw;
+}
+.btn-jedi{
+    width:6vw;
+    height:4vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    margin:5vh 0 0 4.5vw;
+    cursor: pointer;
+}
 .jedi{
     width:50%;
 }
@@ -277,6 +324,89 @@ li:hover{
     height:50vh;
     display:flex;
     flex-wrap: wrap;
+}
+.storm-effect{
+    width:21%;
+    height:15%;
+    background-color: #A43D2F; 
+    position: absolute;
+    top:29.5vh;
+    right:29.5vw;
+    opacity:0%;
+}
+.storm-effect:hover{
+    opacity:80%;
+}
+.border-storm1{
+    width:2vw;
+    height:4vh;
+    border-top:3px solid white;
+    border-left:3px solid white;
+    margin:1vh 0 0 0.5vw;
+    position: absolute;
+}
+.border-storm2{
+    width:2vw;
+    height:4vh;
+    border-bottom:3px solid white;
+    border-right:3px solid white;
+    margin:0vh 0 2vh 18vw;
+}
+.storm-h2{
+    font-size:1.5rem;
+    color: white;
+    margin:3vh 0 0 1.5vw;
+}
+.storm-p{
+    font-size:1rem;
+    color: white;
+    font-weight:300;
+    margin:1vh 0 0 1.5vw;
+}
+.btn-storm{
+    width:6vw;
+    height:4vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    margin:3vh 0 0 1.5vw;
+    cursor: pointer;
+}
+.storm-effect2{
+    width:21%;
+    height:15%;
+    background-color: #A43D2F; 
+    position: absolute;
+    top:54.5vh;
+    left:48.7vw;
+    opacity:0%;
+}
+.storm-effect2:hover{
+    opacity:80%;
+}
+.storm-effect3{
+    width:21%;
+    height:15%;
+    background-color: #A43D2F; 
+    position: absolute;
+    right:9.5vw;
+    top:29.5vh;
+    opacity:0%;
+}
+.storm-effect3:hover{
+    opacity:80%;
+}
+.storm-effect4{
+    width:21%;
+    height:15%;
+    background-color: #A43D2F; 
+    position: absolute;
+    right:9.5vw;
+    top:54.5vh;
+    opacity:0%;
+}
+.storm-effect4:hover{
+    opacity:80%;
 }
 .storm{
     width:50%;
