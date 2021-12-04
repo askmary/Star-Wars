@@ -250,7 +250,7 @@ li:hover{
 }
 .attribute{
     width:100%;
-    height:180vh;
+    height:220vh;
     background-color:#2D2D2D;
     position:absolute;
     top:230vh;
@@ -270,8 +270,8 @@ li:hover{
     display:flex;
 }
 .jedi-div{
-    width:42%;
-    height:30%;
+    width:41.5vw;
+    height:53.5vh;
     position: absolute;
     top:28vh;
     left:8vw;
@@ -326,8 +326,8 @@ li:hover{
     flex-wrap: wrap;
 }
 .storm-effect{
-    width:21%;
-    height:15%;
+    width:20.5vw;
+    height:26.5vh;
     background-color: #A43D2F; 
     position: absolute;
     top:29.5vh;
@@ -373,8 +373,8 @@ li:hover{
     cursor: pointer;
 }
 .storm-effect2{
-    width:21%;
-    height:15%;
+    width:20.5vw;
+    height:26.5vh;
     background-color: #A43D2F; 
     position: absolute;
     top:54.5vh;
@@ -385,8 +385,8 @@ li:hover{
     opacity:80%;
 }
 .storm-effect3{
-    width:21%;
-    height:15%;
+    width:20.5vw;
+    height:26.5vh;
     background-color: #A43D2F; 
     position: absolute;
     right:9.5vw;
@@ -397,8 +397,8 @@ li:hover{
     opacity:80%;
 }
 .storm-effect4{
-    width:21%;
-    height:15%;
+    width:20.5vw;
+    height:26.5vh;
     background-color: #A43D2F; 
     position: absolute;
     right:9.5vw;
@@ -420,4 +420,154 @@ li:hover{
 .hierarquia{
     width:80vw;
     height:94vh;
+}
+.comojogar{
+    width:100%;
+    height:50vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.comojogar-h2{
+    font-weight:900;
+    font-size:2.5rem;
+    color: white;
+}
+.download{
+    width:100%;
+    height:40vh;
+    position:absolute;
+    top:450vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.general-div{
+    width:25vw;
+    height:70vh; 
+    position:absolute; 
+    left:15vw;
+    bottom:7vh;
+}
+.general{
+    width:25vw;
+    height:70vh;   
+}
+.buttons{
+    width:55vw;
+    height:25vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position:absolute;
+    left:40vw;
+}
+.btn-div{
+    width:15vw;
+    height:20vh;
+}
+.one-h2{
+    font-size:1.5rem;
+    font-weight:900;
+    text-align:center;
+    padding-bottom:2vh;
+}
+.btn-explore{
+    width:10vw;
+    height:5vh;
+    background-color:black;
+    border:none;
+    color:white;
+    font-size:1.2rem;
+    font-weight:300;
+    margin:0 0 0 2.5vw;
+    cursor: pointer;
+}
+.btn-explore:hover{
+    transition:box-shadow 3s;
+    box-shadow:inset 20vw 0 #D74430;
+}
+.p1{
+    font-weight:300;
+    text-align:center;
+    font-size:0.8rem;
+    width:70%;
+    padding-top:1.5vh;
+    margin:1vh 0 0 2vw;
+}
+.hr-one{
+    width:4vw;
+    border:solid #D74430;
+    border-radius:2px;
+    margin:1.5vh 0 0 5.5vw;
+}
+.two-h2{
+    font-size:1.5rem;
+    font-weight:300;
+    text-align:center;
+    padding-bottom:2vh;
+}
+.p2{
+    font-weight:300;
+    text-align:center;
+    font-size:0.8rem;
+    width:40%;
+    padding-top:1.5vh;
+    margin:1vh 0 0 4.5vw;
+}
+.hr-two{
+    width:4vw;
+    border:solid black;
+    border-radius:2px;
+    margin:1.5vh 0 0 5.5vw;
+}
+.apps{
+    width:65%;
+    height:90vh;
+    background-color:#FF5A56;
+    position:absolute;
+    top:500vh;
+}
+.apps-div{
+    width:40vw;
+    height:70vh;
+    margin:10vh 0 2vh 10vw;
+}
+.h2-foot{
+    font-size:2.5rem;
+    font-weight:900;
+    color:white;
+    padding-bottom:3vh;
+}
+.p-foot{
+    font-weight:300;
+    color:white;
+    width:75%;
+}
+.store{
+    width:40vw;
+    padding:3vh 0 4vh 0;
+}
+.img-store{
+    width:14vw;
+    height:8vh;
+}
+.hr-foot{
+    width:28.5vw;
+    border:solid #D74430;
+}
+.sw-logo{
+    width:15vw;
+    margin:3vh 0 3vh 0;
+}
+.anakin{
+    width:40vw;
+    height:90vh;
+    position:absolute;
+    bottom:11.5vh;
+    left:53.5vw;
+}
+.darth-vader{
+    width:40vw;
+    height:90vh;
 }
