@@ -30,10 +30,6 @@ header{
     width:25vw;
     height:12vh;
 }
-.wars-header{
-    width:25vw;
-    height:12vh;
-}
 .kyloren-container{
     position:absolute; 
     top:8vh;
@@ -570,4 +566,124 @@ li:hover{
 .darth-vader{
     width:40vw;
     height:90vh;
+}
+@media(max-width:376px){
+    header{
+        width:94%;
+        height:20vh;
+        position:relative;
+    }
+    .container-header{
+        width:75vw;
+        position:absolute;
+        top:9vh;
+        left:12vw;
+    }
+    .star-header{
+        width:28vw;
+        height:4vh;
+    }
+    .kyloren-container{
+        position:absolute;
+        top:1vh;
+        left:8vw;
+        height:26vh;
+    }
+    .kylo-header{
+        width:65vw;
+        height:50vw;
+    }
+    .menu-header{
+        width:20.5vw;
+        height:10vh;
+        position:absolute;
+        top:18vh;
+        left:62vw;  
+    }
+    .header-h2{
+        font-size:0.7rem;
+        border-bottom: 3px solid black;
+    }
+    .p-header{
+        font-size:0.6rem;
+        padding-top:1vh;
+    }
+    .menu-header span{
+        font-size:0.7rem;
+    }
+    .btn-header1{
+        width:4vw;
+        background-color:#A9BDC1;
+        font-weight:900;
+        position:absolute;
+        top:12vw;
+        left:10vw;
+    }
+    .btn-header2{
+        width:4vw;
+        background-color:#A9BDC1;
+        font-weight:900;
+        top:12vw;
+        left:15vw;
+    }
+    .section-central{
+        width:94vw;
+    }
+    .robot-div{
+        width:94vw;
+        height:80.7vh;
+    }
+    .robot{
+        width:80vw;
+        height:80vh;
+    }
+    .start-div{
+        width:53vw;
+        height:47vh;
+        z-index:2;
+        position:absolute;
+        left:35vw;
+        bottom:79vh;
+    }
+    .start-h2{
+        font-size:1.7rem;
+        width:60%;
+        font-weight:500;
+        position: absolute;
+        top:5vh;
+        left:12vw;
+    }
+    .start-p{
+        font-size:0.8rem;
+        width:90%;
+        position: absolute;
+        top:20vh;
+        left:5vw;   
+    }
+    .btn-download{
+        width:26vw;
+        height:5vh;
+        position: relative;
+        top:35vh;
+        left:14vw;
+    }
+    .about-div{
+        width:54vw;
+        height:18vh;
+        position:absolute;
+        top:64vh;
+        left:34.5vw;
+    }
+    .about{
+        width:53vw;
+        height:18vh;
+    }
+    .h2-div{
+        position: absolute;
+        top:90vh;
+    }
+    .p-div{
+        position: absolute;
+        top:90vh;
+    }
 }
